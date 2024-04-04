@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+ .resume_name{
+    background-color: #f1f1f1;
+ }
+.resume{
+    overflow: hidden;
+    min-height: 1050px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.sum_head,.education_head,.project_head,.skill_head{
+    height: 150px;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+.summery_info,.education_info,.project_info,.skill_info{
+    min-height: 150px;
+    width: 500px;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+.summery,.education,.skills,.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.resume_main_head{
+    height: 200px;
+    width: 100%;
+}
+.resume_name{
+    padding: 50px;
+}
+ 
+ 
+.divider{
+    height: 1px;
+    width: 95%;
+    background-color: #252525;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2.5%;
+}
+
+
+@media only screen and (max-width: 600px){
+     
+    .summery_info,.education_info,.project_info,.skill_info{
+        
+        width: 350px;
+    }
+    .sum_head,.education_head,.project_head,.skill_head{
+        height: 100px;
+        }
+        .resume_main_head {
+            height: 150px;
+        }
+}
+@media only screen and (max-width: 350px){
+    .summery_info,.education_info,.project_info,.skill_info{
+        
+        width: 300px;
+    }
+}
+ 

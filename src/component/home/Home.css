@@ -1,0 +1,139 @@
+.home{
+    min-height: 600px;
+    width: 100%;
+    background-color:#f1f1f1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+ 
+.left_sect{
+    height: 450px;
+    width: 450px;
+background-image: url(./src/profile\ photo.jpg);
+border-radius: 50%;
+background-position: center;
+background-size: cover;
+margin-right: 50px;
+}
+ 
+.main_head{
+    font-size: 100px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ 
+  
+}
+.right_sect{
+    height: 400px;
+width: 400px;
+}
+ .about_me{
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ h3{
+    font-weight: 600;
+    font-size:larger;
+    padding:10px;
+ }
+ .upper_right_sect{
+    height: 400px;
+width: 400px;
+text-align: center;
+ }
+ .bottom_nav_info{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color:#88888885;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .bottom_nav{
+    display: flex;
+    justify-content: space-between;
+ }
+ @media only screen and (max-width: 900px){
+    .bottom_nav {
+        
+        justify-content: space-around;
+    }
+    .right_sect{
+        display: none;
+    }
+    .left_sect{
+        height: 300px;
+        width: 300px;
+        margin-right: 0px;
+ }
+.upper_right_sect{
+    height: 300px;
+    width: 100%;
+}
+.bottom_nav_info{
+    height: 100px;
+    width: 100px;
+}
+    .upper_right_sect{
+        height: 340px;
+        width: 100%;
+    }}
+ 
+ @media only screen and (min-width: 600px){
+    .upper_right_sect{
+        display:block;
+    }
+     
+     
+ }
+ @media only screen and (min-width: 900px){
+    .upper_right_sect{
+        display:none;
+    }
+    .right_sect{
+        display: block;
+    }
+}
+
+ /* phone view */
+ @media only screen and (max-width: 600px){
+    .right_sect{
+        display: none;
+            
+    }
+    .main_head{
+        font-size: 50px;}
+    .left_sect{
+        height: 300px;
+        width: 300px;
+        margin-right: 0px;
+        
+ }
+
+}
+
+ 
+ .small{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color:#f1f1f1;
+    transition: all .3s ease-in-out;
+    border: .5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+ .small:hover{
+    scale: .9;
+    border: none;
+ }

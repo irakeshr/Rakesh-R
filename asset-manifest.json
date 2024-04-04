@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Rakesh-R/static/css/main.92bcb3ef.css",
+    "main.js": "/Rakesh-R/static/js/main.696065ab.js",
+    "static/js/453.92ceb6c8.chunk.js": "/Rakesh-R/static/js/453.92ceb6c8.chunk.js",
+    "static/media/profile photo.jpg": "/Rakesh-R/static/media/profile photo.fac8d364fbf96b0d4354.jpg",
+    "static/media/project1.png": "/Rakesh-R/static/media/project1.add7d3de6a15e10df1cd.png",
+    "static/media/project5.jpg": "/Rakesh-R/static/media/project5.9f77f6094f9edde091f9.jpg",
+    "static/media/project4.jpg": "/Rakesh-R/static/media/project4.c351b9f6118565fdf02e.jpg",
+    "static/media/poject3.jpg": "/Rakesh-R/static/media/poject3.a65913628c815d3881b0.jpg",
+    "static/media/project2.jpg": "/Rakesh-R/static/media/project2.c11bd591f7583f3890a5.jpg",
+    "index.html": "/Rakesh-R/index.html",
+    "main.92bcb3ef.css.map": "/Rakesh-R/static/css/main.92bcb3ef.css.map",
+    "main.696065ab.js.map": "/Rakesh-R/static/js/main.696065ab.js.map",
+    "453.92ceb6c8.chunk.js.map": "/Rakesh-R/static/js/453.92ceb6c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92bcb3ef.css",
+    "static/js/main.696065ab.js"
+  ]
+}
